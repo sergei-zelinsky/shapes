@@ -5,6 +5,9 @@
   "repository": "https://github.com/sergei-zelinsky/shapes.git",
   "author": "Sergei Zelinsky <sergei.zelinsky.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc"
+  },
   "devDependencies": {
     "typescript": "^2.5.2"
   }
