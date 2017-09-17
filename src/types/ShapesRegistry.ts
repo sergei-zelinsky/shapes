@@ -3,7 +3,7 @@ import Shape from './Shape';
 interface ShapesRegistry{
     shapes: Shape[],
     add: (shape: Shape) => void,
-    remove: (shape: Shape) => Shape,
+    remove: (shape: Shape) => void,
     getTotalArea: () => number
 }
 
