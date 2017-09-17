@@ -5,10 +5,26 @@
   "repository": "https://github.com/sergei-zelinsky/shapes.git",
   "author": "Sergei Zelinsky <sergei.zelinsky.dev@gmail.com>",
   "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "\\.(test|spec)\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^21.1.0",
+    "ts-jest": "^21.0.1",
     "typescript": "^2.5.2"
   }
 }
