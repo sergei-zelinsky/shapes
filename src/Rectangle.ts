@@ -1,4 +1,4 @@
-import Shape from './Shape';
+import Shape from './types/Shape';
 
 class Rectangle implements Shape {
     constructor(public height: number, public width: number){}

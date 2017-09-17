@@ -1,4 +1,4 @@
-import Shape from './Shape';
+import Shape from './types/Shape';
 
 class Circle implements Shape {
     constructor(public radius: number){}
