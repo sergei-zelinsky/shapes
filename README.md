@@ -1,4 +1,4 @@
-# shapes
+# shapes [![Build Status](https://travis-ci.org/sergei-zelinsky/shapes.svg?branch=master)](https://travis-ci.org/sergei-zelinsky/shapes)
 
 Test repo for playing with TypeScript.
 
