@@ -1,7 +1,7 @@
-import Shape from './types/Shape';
+import Shape from 'types/Shape';
 
 class Rectangle implements Shape {
-    constructor(public height: number, public width: number){}
+    constructor(public width: number, public height: number){}
 
     getArea(){
         return this.width * this.height;

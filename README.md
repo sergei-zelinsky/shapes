@@ -30,3 +30,13 @@ And finally run `index.js` file, for example, with Node
 ```
 node index.js
 ```
+
+## Testing
+
+This project uses Jest.
+
+Run all tests
+
+```
+yarn test
+```
